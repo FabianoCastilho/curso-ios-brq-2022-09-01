@@ -45,6 +45,7 @@
 		6C5988C128CA6FE9007D06F5 = {
 			isa = PBXGroup;
 			children = (
+				6C703AD528CBB51900D6A2E6 /* Game.swiftbb.swift */,
 				6C5988CC28CA6FE9007D06F5 /* ProjetoAlvo */,
 				6C5988CB28CA6FE9007D06F5 /* Products */,
 			);
@@ -61,7 +62,6 @@
 		6C5988CC28CA6FE9007D06F5 /* ProjetoAlvo */ = {
 			isa = PBXGroup;
 			children = (
-				6C703AD528CBB51900D6A2E6 /* Game.swiftbb.swift */,
 				6C5988CD28CA6FE9007D06F5 /* ProjetoAlvoApp.swift */,
 				6C5988CF28CA6FEA007D06F5 /* ContentView.swift */,
 				6C59E96B28CFC1C1005A0F5E /* SecondView.swift */,
