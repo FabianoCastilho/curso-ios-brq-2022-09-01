@@ -14,22 +14,23 @@ struct EditFoodView: View {
     var food: FetchedResults<Food>.Element
     
     @State var name : String = ""
-    @State var calories : Double = 0
+    @State var calories : Double = 0.0
     
     var body: some View {
         Form{
             Section(){
                 TextField("Food Name", text:  $name)
-                    .onAppear{name = food.name!
-                        calories = food.calories
-                    }
+                    .onAppear(){
+                       name = food.name!
+                       calories = food.calories
+                        }
                 VStack{
                     Text("Calories: \(Int(calories))")
                     Slider(value: $calories, in: 1...4000, step: 10)
                 }.padding()
                 HStack{
                     Spacer()
-                    Button("Submit"){
+                    Button("Edit"){
                         DataController().editFood(foodOld: food, name: name, calories: calories, context: managedObjectContext )
                         dismiss()
                     }

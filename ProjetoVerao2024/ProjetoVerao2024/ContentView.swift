@@ -37,6 +37,7 @@ struct ContentView: View {
                             }
                         }
                     }
+                    .onDelete(perform: deleteFood)
                 }
                 .toolbar{ ToolbarItem(placement: .navigationBarTrailing){
                     Button{
@@ -52,6 +53,9 @@ struct ContentView: View {
             }
         }
     }
+    func deleteFood(offset:IndexSet) {
+            DataController().deleteFood(offsets: offset, context: managedObjectContext, food: food)
+        }
     func getTotalCalories() -> Double{
         return 0.0
     }

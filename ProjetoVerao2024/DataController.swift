@@ -4,6 +4,7 @@
 //
 //  Created by user226746 on 9/16/22.
 //
+import SwiftUI
 import Foundation
 import CoreData
 
@@ -47,6 +48,13 @@ class DataController : ObservableObject{
         
         save(context: context)
     }
+    func deleteFood(offsets: IndexSet, context: NSManagedObjectContext, food: FetchedResults<Food> ){
+        offsets.map{ food[$0]}
+            .forEach(context.delete)
+        
+        save(context: context)
+    }
+        
 }
 
 
