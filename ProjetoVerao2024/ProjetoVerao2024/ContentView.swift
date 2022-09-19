@@ -27,18 +27,14 @@ struct ContentView: View {
                 List{
                     ForEach(food) { food in
                         NavigationLink(destination: EditFoodView(food: food)){
-                            HStack{
-                                VStack(alignment: .leading,spacing: 6){
-                                    Text(food.name!)
-                                        .bold()
-                                    Text("\(Int(food.calories))") + Text(" Calories").foregroundColor(.red)
-                                }
-                                Spacer()
-                            }
+                            
+                            FoodDetailView(foodName: food.name ??  "", foodCalories: food.calories, foodDate: food.date ?? Date())
+                            
                         }
                     }
                     .onDelete(perform: deleteFood)
                 }
+                .navigationTitle("Projeto Verãobb")
                 .toolbar{ ToolbarItem(placement: .navigationBarTrailing){
                     Button{
                         isAddView = true
@@ -57,9 +53,53 @@ struct ContentView: View {
             DataController().deleteFood(offsets: offset, context: managedObjectContext, food: food)
         }
     func getTotalCalories() -> Double{
-        return 0.0
+        var sum : Double = 0.0
+        
+        for item in food{
+            if let myDate = item.date{
+                if Calendar.current.isDateInToday(myDate){
+                    sum += item.calories
+                }
+            }
+        }
+        return sum
+    }
+   
+}
+struct FoodDetailView : View{
+    var foodName : String = ""
+    var foodCalories : Double = 0.0
+    var foodDate : Date = Date()
+    var body: some View{
+        
+        HStack{
+            VStack(alignment: .leading,spacing: 6){
+                Text(foodName)
+                    .bold()
+                Text("\(Int(foodCalories)) -") + Text(" Calories").foregroundColor(.red)
+            }
+            Spacer()
+            
+            Text(calcTimeSince(date : foodDate))
+        }
     }
 }
+func calcTimeSince(date : Date) -> String{
+    let minutes = Int(-date.timeIntervalSinceNow)/60
+    let hours = minutes / 60
+    let days = hours / 24
+    
+    if minutes < 120 {
+        return "\(minutes) minutos atrás"
+    }
+    else if( minutes >= 120 && hours < 48){
+        return "\(hours) horas atrás"
+    }
+    else{
+        return "\(days) dias atrás"
+    }
+}
+
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
