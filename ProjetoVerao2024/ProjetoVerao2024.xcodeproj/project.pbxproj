@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C560E5E28D88BC40091CB0A /* EditFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C560E5D28D88BC40091CB0A /* EditFoodView.swift */; };
+		6CA0EEFD28D67C4800DB5DEE /* AddFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA0EEFC28D67C4800DB5DEE /* AddFoodView.swift */; };
 		6CABD57428D49EC600F32DB9 /* ProjetoVerao2024App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CABD57328D49EC600F32DB9 /* ProjetoVerao2024App.swift */; };
 		6CABD57628D49EC600F32DB9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CABD57528D49EC600F32DB9 /* ContentView.swift */; };
 		6CABD57828D49EC700F32DB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CABD57728D49EC700F32DB9 /* Assets.xcassets */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C560E5D28D88BC40091CB0A /* EditFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditFoodView.swift; sourceTree = "<group>"; };
+		6CA0EEFC28D67C4800DB5DEE /* AddFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodView.swift; sourceTree = "<group>"; };
 		6CABD57028D49EC600F32DB9 /* ProjetoVerao2024.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjetoVerao2024.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CABD57328D49EC600F32DB9 /* ProjetoVerao2024App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjetoVerao2024App.swift; sourceTree = "<group>"; };
 		6CABD57528D49EC600F32DB9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				6CABD57528D49EC600F32DB9 /* ContentView.swift */,
 				6CABD57728D49EC700F32DB9 /* Assets.xcassets */,
 				6CABD57928D49EC700F32DB9 /* Preview Content */,
+				6CA0EEFC28D67C4800DB5DEE /* AddFoodView.swift */,
+				6C560E5D28D88BC40091CB0A /* EditFoodView.swift */,
 			);
 			path = ProjetoVerao2024;
 			sourceTree = "<group>";
@@ -151,7 +157,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CA0EEFD28D67C4800DB5DEE /* AddFoodView.swift in Sources */,
 				6CABD57628D49EC600F32DB9 /* ContentView.swift in Sources */,
+				6C560E5E28D88BC40091CB0A /* EditFoodView.swift in Sources */,
 				6CABD58628D4A22D00F32DB9 /* DataController.swift in Sources */,
 				6CABD57428D49EC600F32DB9 /* ProjetoVerao2024App.swift in Sources */,
 				6CABD58328D49F6D00F32DB9 /* FoodModel.xcdatamodeld in Sources */,

@@ -7,22 +7,27 @@
 import Foundation
 import CoreData
 
-class DataController {
+class DataController : ObservableObject{
+    
+    let container = NSPersistentContainer(name: "FoodModel")
+    
+    init(){
+        container.loadPersistentStores{ description, error in
+                                       if let error = error{
+                                           print("Erro ao carregar os daods \(error)") }
+    }
+}
     func save(context: NSManagedObjectContext){
         do{
-            try   context.save()
+            try context.save()
         }
         catch{
-            print("Erro ao salvar os dados no contexto")
+            let error = error as NSError
+            print("Erro ao salvar os dados no contexto \(error)")
         }
     }
     
-    func save(){
-        
-    }
-    func update(){
-        
-    }
+
     func addFood(name: String, calories: Double, context: NSManagedObjectContext){
         
         let food = Food(context: context)
@@ -33,9 +38,15 @@ class DataController {
         food.date = Date()
        
         save(context: context)
-        
     }
-    func editFood(){
+    
+    func editFood(foodOld: Food, name: String, calories: Double, context: NSManagedObjectContext){
+        foodOld.name = name
+        foodOld.calories = calories
+        foodOld.date = Date()
         
+        save(context: context)
     }
 }
+
+
