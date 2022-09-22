@@ -34,7 +34,7 @@ struct ContentView: View {
                     }
                     .onDelete(perform: deleteFood)
                 }
-                .navigationTitle("Projeto Verãobb")
+                .navigationTitle("Projeto Verão")
                 .toolbar{ ToolbarItem(placement: .navigationBarTrailing){
                     Button{
                         isAddView = true
