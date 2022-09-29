@@ -7,30 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6C2911DF28E3257400300680 /* EditProfessoresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2911DE28E3257400300680 /* EditProfessoresView.swift */; };
-		6C88955928DB82FC00E77E27 /* ProfessoresCRUDApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C88955828DB82FC00E77E27 /* ProfessoresCRUDApp.swift */; };
-		6C88955B28DB82FC00E77E27 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C88955A28DB82FC00E77E27 /* ContentView.swift */; };
-		6C88955D28DB82FC00E77E27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C88955C28DB82FC00E77E27 /* Assets.xcassets */; };
-		6C88956028DB82FC00E77E27 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C88955F28DB82FC00E77E27 /* Preview Assets.xcassets */; };
-		6C88956828DB85CA00E77E27 /* ProfessorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C88956728DB85CA00E77E27 /* ProfessorModel.swift */; };
-		6C88956A28DB86B700E77E27 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C88956928DB86B700E77E27 /* ViewModel.swift */; };
-		6CBECB8228DE21D900502041 /* AddProfessoresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBECB8128DE21D900502041 /* AddProfessoresView.swift */; };
+		6CEB1BD028E2164E005E705C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CEB1BCF28E2164E005E705C /* AppDelegate.swift */; };
+		6CEB1BD228E2164E005E705C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CEB1BD128E2164E005E705C /* SceneDelegate.swift */; };
+		6CEB1BD428E2164E005E705C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CEB1BD328E2164E005E705C /* ViewController.swift */; };
+		6CEB1BD728E2164E005E705C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CEB1BD528E2164E005E705C /* Main.storyboard */; };
+		6CEB1BD928E2164F005E705C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CEB1BD828E2164F005E705C /* Assets.xcassets */; };
+		6CEB1BDC28E2164F005E705C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CEB1BDA28E2164F005E705C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6C2911DE28E3257400300680 /* EditProfessoresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfessoresView.swift; sourceTree = "<group>"; };
-		6C88955528DB82FC00E77E27 /* ProfessoresCRUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProfessoresCRUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6C88955828DB82FC00E77E27 /* ProfessoresCRUDApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessoresCRUDApp.swift; sourceTree = "<group>"; };
-		6C88955A28DB82FC00E77E27 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		6C88955C28DB82FC00E77E27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6C88955F28DB82FC00E77E27 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		6C88956728DB85CA00E77E27 /* ProfessorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessorModel.swift; sourceTree = "<group>"; };
-		6C88956928DB86B700E77E27 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
-		6CBECB8128DE21D900502041 /* AddProfessoresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProfessoresView.swift; sourceTree = "<group>"; };
+		6CEB1BCC28E2164E005E705C /* StoryBoardAula.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryBoardAula.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CEB1BCF28E2164E005E705C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6CEB1BD128E2164E005E705C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6CEB1BD328E2164E005E705C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6CEB1BD628E2164E005E705C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6CEB1BD828E2164F005E705C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6CEB1BDB28E2164F005E705C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6CEB1BDD28E2164F005E705C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6C88955228DB82FC00E77E27 /* Frameworks */ = {
+		6CEB1BC928E2164E005E705C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,97 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6C2911FA28E3369000300680 /* Views */ = {
+		6CEB1BC328E2164E005E705C = {
 			isa = PBXGroup;
 			children = (
-				6CBECB8128DE21D900502041 /* AddProfessoresView.swift */,
-				6C2911DE28E3257400300680 /* EditProfessoresView.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		6C88954C28DB82FC00E77E27 = {
-			isa = PBXGroup;
-			children = (
-				6C88955728DB82FC00E77E27 /* ProfessoresCRUD */,
-				6C88955628DB82FC00E77E27 /* Products */,
+				6CEB1BCE28E2164E005E705C /* StoryBoardAula */,
+				6CEB1BCD28E2164E005E705C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		6C88955628DB82FC00E77E27 /* Products */ = {
+		6CEB1BCD28E2164E005E705C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6C88955528DB82FC00E77E27 /* ProfessoresCRUD.app */,
+				6CEB1BCC28E2164E005E705C /* StoryBoardAula.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6C88955728DB82FC00E77E27 /* ProfessoresCRUD */ = {
+		6CEB1BCE28E2164E005E705C /* StoryBoardAula */ = {
 			isa = PBXGroup;
 			children = (
-				6C2911FA28E3369000300680 /* Views */,
-				6C88956628DB853900E77E27 /* DataModel */,
-				6C88955828DB82FC00E77E27 /* ProfessoresCRUDApp.swift */,
-				6C88955A28DB82FC00E77E27 /* ContentView.swift */,
-				6C88955C28DB82FC00E77E27 /* Assets.xcassets */,
-				6C88955E28DB82FC00E77E27 /* Preview Content */,
+				6CEB1BCF28E2164E005E705C /* AppDelegate.swift */,
+				6CEB1BD128E2164E005E705C /* SceneDelegate.swift */,
+				6CEB1BD328E2164E005E705C /* ViewController.swift */,
+				6CEB1BD528E2164E005E705C /* Main.storyboard */,
+				6CEB1BD828E2164F005E705C /* Assets.xcassets */,
+				6CEB1BDA28E2164F005E705C /* LaunchScreen.storyboard */,
+				6CEB1BDD28E2164F005E705C /* Info.plist */,
 			);
-			path = ProfessoresCRUD;
-			sourceTree = "<group>";
-		};
-		6C88955E28DB82FC00E77E27 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				6C88955F28DB82FC00E77E27 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		6C88956628DB853900E77E27 /* DataModel */ = {
-			isa = PBXGroup;
-			children = (
-				6C88956728DB85CA00E77E27 /* ProfessorModel.swift */,
-				6C88956928DB86B700E77E27 /* ViewModel.swift */,
-			);
-			path = DataModel;
+			path = StoryBoardAula;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6C88955428DB82FC00E77E27 /* ProfessoresCRUD */ = {
+		6CEB1BCB28E2164E005E705C /* StoryBoardAula */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6C88956328DB82FC00E77E27 /* Build configuration list for PBXNativeTarget "ProfessoresCRUD" */;
+			buildConfigurationList = 6CEB1BE028E2164F005E705C /* Build configuration list for PBXNativeTarget "StoryBoardAula" */;
 			buildPhases = (
-				6C88955128DB82FC00E77E27 /* Sources */,
-				6C88955228DB82FC00E77E27 /* Frameworks */,
-				6C88955328DB82FC00E77E27 /* Resources */,
+				6CEB1BC828E2164E005E705C /* Sources */,
+				6CEB1BC928E2164E005E705C /* Frameworks */,
+				6CEB1BCA28E2164E005E705C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ProfessoresCRUD;
-			productName = ProfessoresCRUD;
-			productReference = 6C88955528DB82FC00E77E27 /* ProfessoresCRUD.app */;
+			name = StoryBoardAula;
+			productName = StoryBoardAula;
+			productReference = 6CEB1BCC28E2164E005E705C /* StoryBoardAula.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6C88954D28DB82FC00E77E27 /* Project object */ = {
+		6CEB1BC428E2164E005E705C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
-					6C88955428DB82FC00E77E27 = {
+					6CEB1BCB28E2164E005E705C = {
 						CreatedOnToolsVersion = 14.0;
 					};
 				};
 			};
-			buildConfigurationList = 6C88955028DB82FC00E77E27 /* Build configuration list for PBXProject "ProfessoresCRUD" */;
+			buildConfigurationList = 6CEB1BC728E2164E005E705C /* Build configuration list for PBXProject "StoryBoardAula" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -138,46 +110,63 @@
 				en,
 				Base,
 			);
-			mainGroup = 6C88954C28DB82FC00E77E27;
-			productRefGroup = 6C88955628DB82FC00E77E27 /* Products */;
+			mainGroup = 6CEB1BC328E2164E005E705C;
+			productRefGroup = 6CEB1BCD28E2164E005E705C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6C88955428DB82FC00E77E27 /* ProfessoresCRUD */,
+				6CEB1BCB28E2164E005E705C /* StoryBoardAula */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6C88955328DB82FC00E77E27 /* Resources */ = {
+		6CEB1BCA28E2164E005E705C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C88956028DB82FC00E77E27 /* Preview Assets.xcassets in Resources */,
-				6C88955D28DB82FC00E77E27 /* Assets.xcassets in Resources */,
+				6CEB1BDC28E2164F005E705C /* LaunchScreen.storyboard in Resources */,
+				6CEB1BD928E2164F005E705C /* Assets.xcassets in Resources */,
+				6CEB1BD728E2164E005E705C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6C88955128DB82FC00E77E27 /* Sources */ = {
+		6CEB1BC828E2164E005E705C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C2911DF28E3257400300680 /* EditProfessoresView.swift in Sources */,
-				6C88956828DB85CA00E77E27 /* ProfessorModel.swift in Sources */,
-				6C88955B28DB82FC00E77E27 /* ContentView.swift in Sources */,
-				6CBECB8228DE21D900502041 /* AddProfessoresView.swift in Sources */,
-				6C88956A28DB86B700E77E27 /* ViewModel.swift in Sources */,
-				6C88955928DB82FC00E77E27 /* ProfessoresCRUDApp.swift in Sources */,
+				6CEB1BD428E2164E005E705C /* ViewController.swift in Sources */,
+				6CEB1BD028E2164E005E705C /* AppDelegate.swift in Sources */,
+				6CEB1BD228E2164E005E705C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		6CEB1BD528E2164E005E705C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CEB1BD628E2164E005E705C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6CEB1BDA28E2164F005E705C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CEB1BDB28E2164F005E705C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		6C88956128DB82FC00E77E27 /* Debug */ = {
+		6CEB1BDE28E2164F005E705C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -237,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		6C88956228DB82FC00E77E27 /* Release */ = {
+		6CEB1BDF28E2164F005E705C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -291,20 +280,19 @@
 			};
 			name = Release;
 		};
-		6C88956428DB82FC00E77E27 /* Debug */ = {
+		6CEB1BE128E2164F005E705C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ProfessoresCRUD/Preview Content\"";
 				DEVELOPMENT_TEAM = WZDUPC86RG;
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = StoryBoardAula/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -312,7 +300,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.brq.ProfessoresCRUD;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.brq.StoryBoardAula;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -320,20 +308,19 @@
 			};
 			name = Debug;
 		};
-		6C88956528DB82FC00E77E27 /* Release */ = {
+		6CEB1BE228E2164F005E705C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ProfessoresCRUD/Preview Content\"";
 				DEVELOPMENT_TEAM = WZDUPC86RG;
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = StoryBoardAula/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -341,7 +328,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.brq.ProfessoresCRUD;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.brq.StoryBoardAula;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -352,25 +339,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6C88955028DB82FC00E77E27 /* Build configuration list for PBXProject "ProfessoresCRUD" */ = {
+		6CEB1BC728E2164E005E705C /* Build configuration list for PBXProject "StoryBoardAula" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6C88956128DB82FC00E77E27 /* Debug */,
-				6C88956228DB82FC00E77E27 /* Release */,
+				6CEB1BDE28E2164F005E705C /* Debug */,
+				6CEB1BDF28E2164F005E705C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6C88956328DB82FC00E77E27 /* Build configuration list for PBXNativeTarget "ProfessoresCRUD" */ = {
+		6CEB1BE028E2164F005E705C /* Build configuration list for PBXNativeTarget "StoryBoardAula" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6C88956428DB82FC00E77E27 /* Debug */,
-				6C88956528DB82FC00E77E27 /* Release */,
+				6CEB1BE128E2164F005E705C /* Debug */,
+				6CEB1BE228E2164F005E705C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6C88954D28DB82FC00E77E27 /* Project object */;
+	rootObject = 6CEB1BC428E2164E005E705C /* Project object */;
 }

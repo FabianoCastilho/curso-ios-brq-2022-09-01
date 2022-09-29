@@ -7,18 +7,20 @@
 
 import Foundation
 
-class ViewModel{
+class ViewModel : ObservableObject{
     
     let urlAddr : String = "https://cors.grandeporte.com.br/cursos.grandeporte.com.br:8080/professores"
-    var items : [ProfessorModel] = []
+    @Published var items : [ProfessorModel] = []
     
+    init(){
+        fetchProfessores()
+    }
     func fetchProfessores(){
         guard let url = URL(string: urlAddr)
         else {
             print("URL NOT FOUND")
             return
         }
-        
         URLSession.shared.dataTask(with: url){ (data, res, error) in
             if error != nil {
                 print("error \(error!)")
@@ -34,7 +36,6 @@ class ViewModel{
             }
         }.resume()
     }
-    
     func createProfessor(nome : String, email : String){
         guard let url = URL(string: urlAddr)
         else {
@@ -61,6 +62,9 @@ class ViewModel{
             do {
                 if let data = data{
                     let result = try JSONDecoder().decode(ProfessorModel.self, from: data)
+                    
+                    print("Create : \(result.id)")
+                    self.fetchProfessores()
                 }
             }
             catch{
@@ -94,6 +98,9 @@ class ViewModel{
             do {
                 if let data = data{
                     let result = try JSONDecoder().decode(ProfessorModel.self, from: data)
+                    
+                    print("Update : \(result.id)")
+                    self.fetchProfessores()
                 }
             }
             catch{
@@ -116,6 +123,7 @@ class ViewModel{
                 print ("error: \(error!)")
                 return
             }
+            self.fetchProfessores()
         }.resume()
     }
 }
